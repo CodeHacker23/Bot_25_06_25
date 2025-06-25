@@ -10,7 +10,7 @@ import java.util.List;
 
 @Component
 @PropertySource("classpath:bot.properties")
-public class Bot extends TelegramLongPollingBot {
+public class Bot extends TelegramLongPollingBot { //
 
     public Bot(@Value("${bot.token}") String botToken) {
         super(botToken);
