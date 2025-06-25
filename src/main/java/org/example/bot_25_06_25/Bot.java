@@ -26,6 +26,7 @@ public class Bot extends TelegramLongPollingBot {
         super.onUpdatesReceived(updates);
     }
 
+    //bot name
     @Override
     public String getBotUsername() {
         return "GitHub_inf0rmer_bot";
