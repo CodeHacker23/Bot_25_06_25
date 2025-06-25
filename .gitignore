@@ -19,7 +19,7 @@ bin/
 
 ### IntelliJ IDEA ###
 .idea
-src/main/resources/bot.properties
+ **/bot.properties
 *.iws
 *.iml
 *.ipr
